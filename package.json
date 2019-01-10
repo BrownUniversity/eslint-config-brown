@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-brown",
+  "description": "ESLint rules for Brown University projects.",
+  "author": "Colin Cummings <colin_cummings@brown.edu>",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://bitbucket.brown.edu/projects/CCUM/repos/eslint-config-brown",
+  "main": "index.js",
+  "scripts": {
+    "eslint-find-new-rules": "eslint-find-rules --unused ./index.js",
+    "eslint-find-deprecated-rules": "eslint-find-rules --deprecated ./index.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=5"
+  },
+  "devDependencies": {
+    "confusing-browser-globals": "^1.0.5",
+    "eslint": "^5.7.0",
+    "eslint-find-rules": "^3.3.1"
+  }
+}

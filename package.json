@@ -2,7 +2,7 @@
   "name": "eslint-config-brown",
   "description": "ESLint rules for Brown University projects.",
   "author": "Colin Cummings <colin_cummings@brown.edu>",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "homepage": "https://bitbucket.brown.edu/projects/CCUM/repos/eslint-config-brown",
   "main": "index.js",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
+    "confusing-browser-globals": "^1.0.5",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jest": "^21.26.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
@@ -22,7 +23,6 @@
     "eslint": ">=5"
   },
   "devDependencies": {
-    "confusing-browser-globals": "^1.0.5",
     "eslint": "^5.7.0",
     "eslint-find-rules": "^3.3.1"
   }

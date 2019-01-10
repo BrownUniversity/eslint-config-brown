@@ -2,6 +2,8 @@
 
 ESLint rules for Brown University projects.
 
+_On-prem Bitbucket doesn't render markdown very nicely; view this in a markdown editor like [Dillinger](https://dillinger.io/)._
+
 ## Usage
 
 1. Install packages:
@@ -17,6 +19,9 @@ ESLint rules for Brown University projects.
    ```json
    {
      "extends": "brown",
+     "env": {
+       "browser": true // be sure to add this for frontend projects
+     },
      "rules": {
        // your overrides
      }

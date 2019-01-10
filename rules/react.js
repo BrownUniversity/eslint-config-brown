@@ -2,6 +2,8 @@
 module.exports = {
   plugins: ['react'],
 
+  extends: ['prettier/react'],
+
   parserOptions: {
     ecmaFeatures: {
       jsx: true

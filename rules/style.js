@@ -1,5 +1,7 @@
 // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/style.js
 module.exports = {
+  extends: ['prettier'],
+
   rules: {
     // enforce line breaks after opening and before closing array brackets
     // https://eslint.org/docs/rules/array-bracket-newline

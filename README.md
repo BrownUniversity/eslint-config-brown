@@ -25,4 +25,5 @@ ESLint rules for Brown University projects.
 
    Other available extensions:
 
+   - `brown/jest`
    - `brown/react`

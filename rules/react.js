@@ -263,47 +263,7 @@ module.exports = {
 
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/sort-comp.md
-    'react/sort-comp': [
-      'error',
-      {
-        order: [
-          'static-methods',
-          'instance-variables',
-          'lifecycle',
-          '/^on.+$/',
-          'getters',
-          'setters',
-          '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-          'instance-methods',
-          'everything-else',
-          'rendering'
-        ],
-        groups: {
-          lifecycle: [
-            'displayName',
-            'propTypes',
-            'contextTypes',
-            'childContextTypes',
-            'mixins',
-            'statics',
-            'defaultProps',
-            'constructor',
-            'getDefaultProps',
-            'getInitialState',
-            'state',
-            'getChildContext',
-            'componentWillMount',
-            'componentDidMount',
-            'componentWillReceiveProps',
-            'shouldComponentUpdate',
-            'componentWillUpdate',
-            'componentDidUpdate',
-            'componentWillUnmount'
-          ],
-          rendering: ['/^render.+$/', 'render']
-        }
-      }
-    ],
+    'react/sort-comp': 'off',
 
     // Prevent missing parentheses around multilines JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/jsx-wrap-multilines.md
@@ -338,7 +298,7 @@ module.exports = {
 
     // only .jsx files may have JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
+    'react/jsx-filename-extension': 'off',
 
     // prevent accidental JS comments from being injected into JSX as text
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
@@ -469,11 +429,11 @@ module.exports = {
 
     // One JSX Element Per Line
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/jsx-one-expression-per-line.md
-    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
+    'react/jsx-one-expression-per-line': 'off',
 
     // Enforce consistent usage of destructuring assignment of props, state, and context
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/destructuring-assignment.md
-    'react/destructuring-assignment': ['error', 'always'],
+    'react/destructuring-assignment': 'off',
 
     // Prevent using this.state within a this.setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/no-access-state-in-setstate.md

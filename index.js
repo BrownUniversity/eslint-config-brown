@@ -7,7 +7,8 @@ module.exports = {
     './rules/imports',
     './rules/node',
     './rules/style',
-    './rules/variables'
+    './rules/variables',
+    './rules/prettier'
   ].map(require.resolve),
   rules: {
     strict: 'error'

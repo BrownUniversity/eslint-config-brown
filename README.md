@@ -33,3 +33,4 @@ _On-prem Bitbucket doesn't render markdown very nicely; view this in a markdown 
    - `brown/flow`
    - `brown/jest`
    - `brown/react`
+   - `brown/prettier`

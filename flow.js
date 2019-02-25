@@ -1,4 +1,10 @@
+// https://github.com/gajus/eslint-plugin-flowtype
 module.exports = {
-  extends: ['./rules/flow'].map(require.resolve),
-  rules: {}
+  extends: ["plugin:flowtype/recommended"],
+  plugins: ["flowtype"],
+  rules: {
+    "flowtype/generic-spacing": "off",
+    "flowtype/require-valid-file-annotation": [2, "always"],
+    "no-empty": [0, "always"]
+  }
 };

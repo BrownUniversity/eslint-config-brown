@@ -6,13 +6,9 @@
   "private": true,
   "homepage": "https://bitbucket.brown.edu/projects/CCUM/repos/eslint-config-brown",
   "main": "index.js",
-  "scripts": {
-    "eslint-find-new-rules": "eslint-find-rules --unused ./index.js",
-    "eslint-find-deprecated-rules": "eslint-find-rules --deprecated ./index.js"
-  },
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "confusing-browser-globals": "^1.0.5",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-flowtype": "^3.4.2",
     "eslint-plugin-import": "^2.16.0",
@@ -25,7 +21,6 @@
     "eslint": ">=5"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
-    "eslint-find-rules": "^3.3.1"
+    "eslint": "^5.7.0"
   }
 }

@@ -6,6 +6,7 @@ module.exports = {
     "flowtype/generic-spacing": "off",
     "flowtype/require-valid-file-annotation": [2, "always"],
     "no-empty": [0, "always"],
+    "react/prop-types": "off",
     "react/require-default-props": "off"
   }
 };

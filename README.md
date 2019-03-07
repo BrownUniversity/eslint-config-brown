@@ -9,6 +9,9 @@ _On-prem Bitbucket doesn't render markdown very nicely; view this in a markdown 
 1. Install packages:
 
    ```
+     // npm
+     npm i -D eslint git+https://bitbucket.brown.edu/scm/node/eslint-config-brown.git#semver:^0.12
+     // yarn
      yarn add -D eslint git+https://bitbucket.brown.edu/scm/node/eslint-config-brown.git#^0.12
    ```
 

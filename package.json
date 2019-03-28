@@ -2,7 +2,7 @@
   "name": "eslint-config-brown",
   "description": "ESLint rules for Brown University projects.",
   "author": "Colin Cummings <colin_cummings@brown.edu>",
-  "version": "0.12.2",
+  "version": "0.12.3",
   "private": true,
   "homepage": "https://bitbucket.brown.edu/projects/CCUM/repos/eslint-config-brown",
   "main": "index.js",

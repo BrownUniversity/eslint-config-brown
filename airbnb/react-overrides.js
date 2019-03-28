@@ -1,9 +1,11 @@
 module.exports = {
   plugins: ["react-hooks"],
   rules: {
-    "react/sort-comp": "off",
+    "react/destructuring-assignment": "off",
     "react/jsx-filename-extension": "off",
     "react/jsx-one-expression-per-line": "off",
-    "react/destructuring-assignment": "off"
+    "react/no-did-mount-set-state": "off",
+    "react/no-did-update-set-state": "off",
+    "react/sort-comp": "off"
   }
 };

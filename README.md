@@ -36,6 +36,7 @@ Add "extends": "brown" to your `.eslintrc`:
 
 Additional extensions:
 
+- `brown/cypress`
 - `brown/flow`
 - `brown/jest`
 - `brown/prettier`

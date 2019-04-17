@@ -10,10 +10,10 @@ ESLint rules for Brown University projects using [`eslint-config-airbnb`](https:
 
 ```
 // npm
-npm i -D eslint git+https://bitbucket.brown.edu/scm/node/eslint-config-brown.git#semver:^0.12
+npm i -D eslint git+https://bitbucket.brown.edu/scm/node/eslint-config-brown.git#semver:^0.13
 
 // yarn
-yarn add -D eslint git+https://bitbucket.brown.edu/scm/node/eslint-config-brown.git#^0.12
+yarn add -D eslint git+https://bitbucket.brown.edu/scm/node/eslint-config-brown.git#^0.13
 ```
 
 _Ensure you're on the network and that your SSH key has been added to the ssh-agent (`ssh-add ~/.ssh/id_rsa`) and uploaded to [bitbucket.brown.edu](https://bitbucket.brown.edu/plugins/servlet/ssh/account/keys)._

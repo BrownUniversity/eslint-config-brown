@@ -1,6 +1,6 @@
 # eslint-config-brown
 
-ESLint rules for Brown University projects using [`eslint-config-airbnb`](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) as a base (with a few overrides), and exposing some additional extensions for `flow`, `jest` and `prettier`.
+ESLint rules for Brown University projects using [`eslint-config-airbnb`](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb) as a base (with a few overrides), and exposing some additional extensions.
 
 ---
 
@@ -41,6 +41,7 @@ Additional extensions:
 - `brown/jest`
 - `brown/prettier`
 - `brown/prettier/react`
+- `brown/vue`
 
 _`brown/prettier*` extensions must come last in the "extends" array so they get the chance to override other configs._
 

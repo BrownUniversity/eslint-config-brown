@@ -41,6 +41,7 @@ Additional extensions:
 - `brown/jest`
 - `brown/prettier`
 - `brown/prettier/react`
+- `brown/vue`
 
 _`brown/prettier*` extensions must come last in the "extends" array so they get the chance to override other configs._
 

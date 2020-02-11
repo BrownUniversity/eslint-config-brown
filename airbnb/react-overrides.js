@@ -6,6 +6,7 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/no-did-mount-set-state": "off",
     "react/no-did-update-set-state": "off",
-    "react/sort-comp": "off"
+    "react/sort-comp": "off",
+    "react-hooks/exhaustive-deps": "warn"
   }
 };

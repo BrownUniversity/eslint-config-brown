@@ -1,5 +1,4 @@
-// https://github.com/prettier/eslint-config-prettier
+// https://github.com/prettier/eslint-plugin-prettier
 module.exports = {
-  extends: ["prettier"],
-  rules: {}
+  extends: ["plugin:prettier/recommended"]
 };

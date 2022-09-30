@@ -10,10 +10,10 @@ ESLint rules for Brown University projects using [`eslint-config-airbnb`](https:
 
 ```sh
 // npm
-npm i -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#semver:^0.17
+npm i -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#0.17
 
 // yarn
-yarn add -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#^0.17
+yarn add -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#0.17
 ```
 
 ### 2. Configure ESLint
@@ -38,10 +38,9 @@ Additional extensions:
 - `brown/flow`
 - `brown/jest`
 - `brown/prettier`
-- `brown/prettier/react`
 - `brown/vue`
 
-_`brown/prettier*` extensions must come last in the "extends" array so they get the chance to override other configs._
+_The `brown/prettier` extension must come last in the "extends" array so it gets the chance to override other configs._
 
 ---
 

@@ -8,15 +8,15 @@ ESLint rules for Brown University projects using [`eslint-config-airbnb`](https:
 
 ### 1. Install packages
 
-```
+```sh
 // npm
-npm i -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#semver:^0.16
+npm i -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#semver:^0.17
 
 // yarn
-yarn add -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#^0.16
+yarn add -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#^0.17
 ```
 
-### 2. Configure ESLint:
+### 2. Configure ESLint
 
 Add "extends": "brown" to your `.eslintrc`:
 

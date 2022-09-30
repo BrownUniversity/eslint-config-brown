@@ -2,31 +2,31 @@
   "name": "eslint-config-brown",
   "description": "ESLint rules for Brown University projects.",
   "author": "Colin Cummings <colin_cummings@brown.edu>",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "private": true,
   "homepage": "https://github.com/BrownUniversity/eslint-config-brown",
   "main": "index.js",
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-chai-friendly": "^0.4.1",
+    "@babel/eslint-parser": "^7.19.1",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-chai-friendly": "^0.7.2",
     "eslint-plugin-cypress": "^2.2.1",
-    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-flowtype": "^8.0.3",
     "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jest": "^22.3.0",
+    "eslint-plugin-jest": "^27.0.4",
     "eslint-plugin-jsx-a11y": "^6.2.0",
-    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-react-hooks": "^1.2.0",
-    "eslint-plugin-vue": "^5.2.2"
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-vue": "^9.5.1"
   },
   "peerDependencies": {
-    "eslint": ">=5",
-    "prettier": ">=1"
+    "eslint": ">=8",
+    "prettier": ">=2"
   },
   "devDependencies": {
-    "eslint": "^5.7.0",
-    "prettier": "^1.19.1"
+    "eslint": "^8.24.0",
+    "prettier": "^2.7.1"
   }
 }

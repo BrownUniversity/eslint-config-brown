@@ -1,4 +1,4 @@
-// https://github.com/kentcdodds/eslint-config-kentcdodds/blob/master/jest.js
+// https://github.com/kentcdodds/eslint-config-kentcdodds/blob/main/jest.js
 module.exports = {
   plugins: ["jest"],
   rules: {

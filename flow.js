@@ -1,12 +1,16 @@
-// https://github.com/gajus/eslint-plugin-flowtype
+// https://github.com/flow-typed/eslint-plugin-ft-flow/blob/master/src/configs/babel-parser.json
 module.exports = {
-  extends: ["plugin:flowtype/recommended"],
-  plugins: ["flowtype"],
+  extends: ["plugin:ft-flow/babel-parser"],
   rules: {
-    "flowtype/generic-spacing": "off",
-    "flowtype/require-valid-file-annotation": [2, "always"],
+    "ft-flow/generic-spacing": "off",
+    "ft-flow/require-valid-file-annotation": [2, "always"],
     "no-empty": [0, "always"],
     "react/prop-types": "off",
-    "react/require-default-props": "off"
-  }
+    "react/require-default-props": "off",
+  },
+  settings: {
+    "ft-flow": {
+      onlyFilesWithFlowAnnotation: true,
+    },
+  },
 };

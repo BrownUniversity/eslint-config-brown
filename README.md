@@ -10,10 +10,10 @@ ESLint rules for Brown University projects using [`eslint-config-airbnb`](https:
 
 ```sh
 // npm
-npm i -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#^0.18.0
+npm i -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#^0.19.0
 
 // yarn
-yarn add -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#^0.18.0
+yarn add -D eslint git+https://github.com/BrownUniversity/eslint-config-brown.git#^0.19.0
 ```
 
 ### 2. Configure ESLint
